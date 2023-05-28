@@ -1,0 +1,236 @@
+body {
+    background: linear-gradient(#E4C6FF 88%, hsl(249, 100%, 99%) 50%);
+}
+
+.container {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.navbar-nav li a:hover {
+    color: #4A3CA6 !important;
+}
+
+.nav-link {
+    color: #9896D9;
+}
+
+.navbar-brand {
+    background: linear-gradient(to left, #9896D9, #4A3CA6);
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.footer-heading {
+    color: #9896D9
+}
+
+.link-secondary {
+    color: #9896D9
+}
+
+.colored-section {
+    background: rgba(228, 198, 255, 0.4);
+    /*padding-top: 1rem;*/
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer {
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.footer-hr {
+    border: none;
+    height: 5px;
+    background-color: #4A3CA6;
+}
+
+.scroll-to-top-container {
+    position: relative;
+}
+
+.scroll-to-top {
+    position: absolute;
+    font-size: 24px;
+    top: -18px;
+    background-color: #9896D9;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.scroll-to-top:hover {
+    transform: translateY(-5px);
+    background-color: #4A3CA6;
+}
+
+.commissions_container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    background: rgba(255, 255, 255, 0.48);
+    padding: 20px 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.commissions_container-title {
+    background: rgba(255, 255, 255, 0.48);
+    padding: 20px;
+    text-align: center;
+    color: #411478;
+    margin-bottom: 20px;
+}
+
+.commissions_container ul {
+    list-style-type: '-  ';
+    text-align: left;
+    margin-top: 20px;
+}
+
+.commissions_container .card {
+    background-color: rgba(152, 150, 214, 0.46);
+}
+
+.commissions_container .card-header,
+.commissions_container .card-footer {
+    color: #fff;
+    background-color: rgba(152, 150, 214, 0.46);
+    font-weight: bold;
+}
+
+.commissions_container .card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.rectangle{
+position: absolute;
+width: 1440px;
+height: 259px;
+left: 0px;
+top: 94px;
+
+background: linear-gradient(90.04deg, #260909 28.03%, #3B1B75 113.35%, rgba(16, 15, 16, 0.71) 132.26%);
+}
+
+.titulo{
+    background: linear-gradient(90.04deg, #260909 28.03%, #3B1B75 113.35%, rgba(16, 15, 16, 0.71) 132.26%);
+    padding:10px ;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+
+    color:#FFFFFF;
+    font-size:5em;
+    font-weight:bold;
+    font-family: 'Raleway';
+    font-style: normal;
+    text-align:center;
+    letter-spacing: 0.1em;
+    display:flex;
+    margin: auto;
+    }
+
+
+
+
+  .form-container {
+    background-color: #d09dff;
+    padding: 20px;
+    border-radius: 10px;
+    }
+
+  .form-title {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #3d004d;font-style: normal;
+    font-weight: 70px;
+    font-size: 32px;
+    line-height: 60px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    }
+
+
+
+.form-required {
+    color: rgb(36, 0, 77);
+    font-size:large;
+    font-weight:100px;
+    font-family:monospace;
+    }
+
+.form-label {
+    color: #48008b;
+    font-weight:550;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.btn-submit {
+    background: #4A3CA6;;
+    color: #FFF;
+    font-size:20px;
+    font-weight:bold;
+    border: none;
+    padding: 5px 70px;
+    border-radius: 30px;
+    }
+      
+.btn-submit:hover {
+    background-color: #4B0082;
+    cursor: pointer;
+    }   
+
+
+.subtitulo{
+margin-right: 90px;    
+margin-top: 10px;
+color: #330066;
+font-size:40px;
+font-weight:bold;
+font-family:'Agency FB', sans-serif;
+}
+
+.texto-subtitulo{
+font-family:'Times New Roman';
+font-style:normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 39px;
+text-align: center;
+
+
+margin-right: 60px;
+margin-top: 5px; 
+margin-bottom: 150px;
+    }
+
+.small-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    }
+      
